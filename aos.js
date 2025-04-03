@@ -1,0 +1,1 @@
+// AOS animation script placeholder
