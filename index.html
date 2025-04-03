@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gritifi | Graphic Design Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header" data-aos="fade-down">
+    <div class="logo">Gritifi</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <h1>Building brands with purpose</h1>
+    <p>A small-town design studio bringing clarity and character to ambitious brands.</p>
+    <div class="hero-buttons">
+      <a href="#about" class="btn">About Me</a>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+    <div class="social-icons">
+      <img src="instagram.png" alt="Instagram" />
+      <img src="pinterest.png" alt="Pinterest" />
+      <img src="behance.png" alt="Behance" />
+    </div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About</h2>
+    <p>I’m Marina, a graphic designer focused on building identity systems that feel warm, aesthetic, and thoughtful. Based in a small town, working globally.</p>
+  </section>
+
+  <section id="services" class="section" data-aos="fade-up">
+    <h2>Services</h2>
+    <ul>
+      <li>Brand Identity</li>
+      <li>Social Media Design</li>
+      <li>Packaging & Print</li>
+      <li>Rebranding</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact</h2>
+    <form class="contact-form" action="mailto:your@email.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer" data-aos="fade-up">
+    <p>© 2025 Gritifi Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="aos.js"></script>
+  <script>AOS.init({ duration: 800, easing: 'ease-in-out', once: true });</script>
+</body>
+</html>
